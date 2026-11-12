@@ -1,4 +1,10 @@
-# Teo T3 Code Design System
+<h1 align="center">Teo T3 Code Design System</h1>
+
+<p align="center">
+  <a href="https://github.com/rteoo/design-system-t3code/commits/main"><img src="https://img.shields.io/github/last-commit/rteoo/design-system-t3code/main" alt="Last commit"></a>
+  <a href="https://github.com/rteoo/design-system-t3code/stargazers"><img src="https://img.shields.io/github/stars/rteoo/design-system-t3code" alt="GitHub stars"></a>
+  <a href="LICENSE.md"><img src="https://img.shields.io/github/license/rteoo/design-system-t3code" alt="License"></a>
+</p>
 
 **I'm not Theo, I'm Teô!**
 

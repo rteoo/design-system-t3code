@@ -200,9 +200,9 @@ The theme editor explicitly identifies foundation, brand/content, search, contex
 
 ### Icons
 
-Use [Bootstrap Icons](https://github.com/twbs/icons) as the default icon family. Use an icon alone when its meaning is clear in context; otherwise pair it with a short label. Icon-only controls need an accessible name on the control, a visible keyboard focus state, and a practical touch target; decorative SVGs use `aria-hidden="true"`. Use consistent 16px icons that inherit `currentColor`; do not use color alone to communicate status.
+Use [Hugeicons](https://github.com/hugeicons/hugeicons) (the free stroke-rounded set) as the default icon family, matching the showcase’s shadcn/ui configuration. Use an icon alone when its meaning is clear in context; otherwise pair it with a short label. Icon-only controls need an accessible name on the control, a visible keyboard focus state, and a practical touch target; decorative SVGs use `aria-hidden="true"`. Use consistent 16px icons that inherit `currentColor`; do not use color alone to communicate status.
 
-Use Bootstrap `check-circle-fill` for completed, `info-circle` for neutral progress, `exclamation-triangle-fill` for warnings and review requests, and `x-circle-fill` for failures; keep the status label alongside the icon. Use `search`, `folder`, `chat-left-dots`, `file-earmark-code`, `gear`, `sliders`, and directional icons where they clarify the associated navigation or action. The conversation composer uses `arrow-up` for its icon-only add action. Keep the input programmatically labeled even when its visual label is omitted. Inline SVGs keep the icons local; the README preserves the upstream MIT license notice.
+Use `CheckmarkCircle02Icon` for completed, `InformationCircleIcon` for neutral progress, `Alert02Icon` for warnings and review requests, and `CancelCircleIcon` for failures; keep the status label alongside the icon. Use search, folder, message, file-code, settings, sliders, and directional icons where they clarify the associated navigation or action. The conversation composer uses `ArrowUp02Icon` for its icon-only add action. Keep the input programmatically labeled even when its visual label is omitted. Inline SVGs keep the icons local in the standalone guide; the README preserves the upstream MIT license notice.
 
 ### Syntax highlighting and component-specific color
 

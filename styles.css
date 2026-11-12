@@ -24,7 +24,7 @@
 
 * { box-sizing: border-box; }
 code, pre, kbd, samp { font-family: var(--font-code); }
-.bi { width: 16px; height: 16px; flex: none; vertical-align: -3px; }
+.icon { width: 16px; height: 16px; flex: none; vertical-align: -3px; }
 button { cursor: pointer; }
 .btn.primary { background: var(--button-bg); border-color: var(--button-bg); color: var(--button-text); }
 .btn.primary:hover { background: var(--button-hover); border-color: var(--button-hover); }

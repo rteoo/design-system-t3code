@@ -178,6 +178,14 @@ Weights in the bundle: 400, 500, 600, 700. The role assignments above are inferr
 - Base radius `0.5rem`: `sm` = base − 4px; `md` = base − 2px; `lg` = base; `xl` = base + 4px; `2xl` = base + 8px. At a 16px root these are 4, 6, 8, 12 and 16px.
 - Bundle drop shadows: small `0 1px 2px #00000026`, medium `0 3px 3px #0000001f`. These are available effects, not verified as the default shadow for every overlay. Prefer subtle borders and plane changes; use shadow selectively.
 
+### Implementation map and guardrails
+
+- Shared appearance tokens, primary actions and pointer feedback live in `styles.css`. The guide's page-specific roles and layout are in `index.html`; the interactive examples and their page-specific roles are in `layouts.html`. `SYNTAX.md` records syntax colors independently.
+- The guide adapts at 900px and 600px; the layout examples adapt at 800px and 560px. These are implementation breakpoints, not claims about T3 Code itself. Both use coarse-pointer adjustments for larger targets.
+- Avoid using accent blue as normal text on dark `#111111`: its 4.06:1 contrast falls short of 4.5:1. Use primary text for readable copy, and check the actual surfaces behind focus rings and controls.
+- Avoid using status color alone, reusing search highlights as action colors, or applying code syntax colors to general interface controls. Do not assume source palette borders meet contrast requirements.
+- Before shipping a new implementation, check both themes at desktop and narrow widths, keyboard focus and accessible names, actual color pairings, and reduced-motion behavior. The examples are references, not evidence of conformance in another product.
+
 ## 3. Components
 
 - **Actions:** Blue denotes focus, highlights and primary actions; secondary controls use quiet neutral surfaces and borders. Buttons and icon buttons need accessible names, visible focus, hover, disabled and pressed states. Use destructive styling only for destructive actions. Verify contrast after any opacity or hover change.

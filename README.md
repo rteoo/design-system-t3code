@@ -12,7 +12,7 @@ This is a design system I ~~copied~~ *created* based on the default theme of [T3
 
 **Light and dark themes · Blue accents · Interactive layouts**
 
-**[View the showcase](https://rteoo.com/design-system-t3code/)** *(deployment pending)*
+**[View the showcase](https://rteoo.com/design-system-t3code/)**
 
 | Light | Dark |
 | --- | --- |

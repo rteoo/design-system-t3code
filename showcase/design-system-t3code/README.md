@@ -1,6 +1,6 @@
 # T3 Code design-system showcase
 
-This React showcase uses shadcn/ui components based on Base UI, the project’s light and dark tokens, and Hugeicons. The design-system guide lives outside this package.
+This React showcase uses shadcn/ui components based on Base UI, the project’s light and dark tokens, and Lucide icons. The design-system guide lives outside this package.
 
 ## Develop
 

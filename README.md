@@ -24,10 +24,27 @@ This is an independent project, not affiliated with Theo. It's not an official T
 
 It was reconstructed from T3 Code v0.1.8, after some UI improvements made by the T3 Code team.
 
-## Explore the system
+## Run the merged showcase
 
-- [Design system guide](index.html) — light and dark colors, typography, components, syntax highlighting, file previews, and accessibility notes.
-- [Interactive layouts](layouts.html) — conversation, change review, and settings examples using the system. The examples use local, session-only demo data.
+The repository root is the Next.js 16 App Router project. The guide at `/` and the layout playground at `/layouts/` share Tailwind 4, the T3 theme, and the owned shadcn/ui components in `src/components/ui`.
+
+Use Node 24 or newer and npm:
+
+```sh
+npm ci
+npm run dev
+```
+
+Run `npm run lint`, `npm run typecheck`, and `npm run build` to verify changes. The production build writes a static site to `out/`. Set `T3CODE_BASE_PATH=/design-system-t3code` before building when hosting under that path.
+
+The dev and build scripts use Next.js’s Webpack option because Turbopack’s CSS worker failed to start on the Windows development host. Recheck Turbopack on this host before switching the scripts back.
+
+The conversation, review, and settings examples use in-memory demo state. The theme selection carries across the guide and layouts during client navigation.
+
+## Explore the source references
+
+- [Original HTML guide](index.html) and [layout playground](layouts.html) are source references for the merged routes.
+- [Original React showcase](showcase/design-system-t3code) supplied interaction patterns and shadcn/ui components. Run the merged site from the repository root.
 - [Design guidelines](DESIGN.md) — tokens, component rules, accessibility considerations, and the original T3 Code palette for reference.
 - [Syntax reference](SYNTAX.md) — syntax highlighting and file preview details.
 

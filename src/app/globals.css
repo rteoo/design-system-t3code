@@ -1,0 +1,6 @@
+@import "tailwindcss" source(none);
+@import "tw-animate-css";
+@import "@fontsource-variable/inter";
+@import "../tokens.css";
+
+@source "../";
